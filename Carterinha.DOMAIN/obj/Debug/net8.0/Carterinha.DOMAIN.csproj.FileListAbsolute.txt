@@ -1,0 +1,14 @@
+C:\Users\Interfocus\source\repos\Carterinha.DOMAIN\Carterinha.DOMAIN\bin\Debug\net8.0\Carterinha.DOMAIN.exe
+C:\Users\Interfocus\source\repos\Carterinha.DOMAIN\Carterinha.DOMAIN\bin\Debug\net8.0\Carterinha.DOMAIN.deps.json
+C:\Users\Interfocus\source\repos\Carterinha.DOMAIN\Carterinha.DOMAIN\bin\Debug\net8.0\Carterinha.DOMAIN.runtimeconfig.json
+C:\Users\Interfocus\source\repos\Carterinha.DOMAIN\Carterinha.DOMAIN\bin\Debug\net8.0\Carterinha.DOMAIN.dll
+C:\Users\Interfocus\source\repos\Carterinha.DOMAIN\Carterinha.DOMAIN\bin\Debug\net8.0\Carterinha.DOMAIN.pdb
+C:\Users\Interfocus\source\repos\Carterinha.DOMAIN\Carterinha.DOMAIN\obj\Debug\net8.0\Carterinha.DOMAIN.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Interfocus\source\repos\Carterinha.DOMAIN\Carterinha.DOMAIN\obj\Debug\net8.0\Carterinha.DOMAIN.AssemblyInfoInputs.cache
+C:\Users\Interfocus\source\repos\Carterinha.DOMAIN\Carterinha.DOMAIN\obj\Debug\net8.0\Carterinha.DOMAIN.AssemblyInfo.cs
+C:\Users\Interfocus\source\repos\Carterinha.DOMAIN\Carterinha.DOMAIN\obj\Debug\net8.0\Carterinha.DOMAIN.csproj.CoreCompileInputs.cache
+C:\Users\Interfocus\source\repos\Carterinha.DOMAIN\Carterinha.DOMAIN\obj\Debug\net8.0\Carterinha.DOMAIN.dll
+C:\Users\Interfocus\source\repos\Carterinha.DOMAIN\Carterinha.DOMAIN\obj\Debug\net8.0\refint\Carterinha.DOMAIN.dll
+C:\Users\Interfocus\source\repos\Carterinha.DOMAIN\Carterinha.DOMAIN\obj\Debug\net8.0\Carterinha.DOMAIN.pdb
+C:\Users\Interfocus\source\repos\Carterinha.DOMAIN\Carterinha.DOMAIN\obj\Debug\net8.0\Carterinha.DOMAIN.genruntimeconfig.cache
+C:\Users\Interfocus\source\repos\Carterinha.DOMAIN\Carterinha.DOMAIN\obj\Debug\net8.0\ref\Carterinha.DOMAIN.dll
