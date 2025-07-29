@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Carterinha.Aplication")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+189a3a0c54ec1511458c6ae73108240cce08bec8")]
 [assembly: System.Reflection.AssemblyProductAttribute("Carterinha.Aplication")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Carterinha.Aplication")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -2,14 +2,22 @@
 
 namespace Carterinha.Aplication.Repository
 {
-    public interface IRepository<T> where T : IEntidade
+    public interface IRepository<T>
     {
-        Task<T> IncluirAsync(T entity);
+        Task IncluirAsync(T entity);
 
         Task<T> SalvarAsync(T entity);
 
-        Task<T> ExcluirAsync(long ra);
+        Task ExcluirAsync(long ra);
 
         Task<T> BuscarPorIdAsync(long ra);
+
+        IQueryable<T> Query();
+
+        IDisposable IniciarTransacao();
+
+        Task CommitTransicao();
+
+        Task RollbackTransicao();
     }
 }

@@ -9,12 +9,10 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Carterinha.DOMAIN\Carterinha.DOMAIN.csproj" />
-    <ProjectReference Include="..\Carterinha.Infrastructure\Carterinha.Infrastructure.csproj" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Dto\" />
-    <Folder Include="Services\" />
+    <PackageReference Include="NHibernate" Version="5.5.2" />
   </ItemGroup>
 
 </Project>

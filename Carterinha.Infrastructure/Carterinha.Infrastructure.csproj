@@ -18,6 +18,11 @@
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="NHibernate" Version="5.5.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Carterinha.Aplication\Carterinha.Aplication.csproj" />
     <ProjectReference Include="..\Carterinha.DOMAIN\Carterinha.DOMAIN.csproj" />
   </ItemGroup>
 
