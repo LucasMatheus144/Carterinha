@@ -1,11 +1,31 @@
+using System.Configuration;
+using NHibernate.Cfg;
+using Carterinha.Aplication.Services;
+using Carterinha.Aplication.Repository;
+using Carterinha.Aplication.Repository.Implementation;
+
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+builder.Services.AddScoped<CarterinhaService>();
+builder.Services.AddScoped<ValidatorService>();
+
+var connectionString = builder.Configuration.GetConnectionString("Default");
+
+builder.Services.AddSingleton(c =>
+{
+    var config = new NHibernate.Cfg.Configuration().Configure();
+    config.DataBaseIntegration(
+        x => x.ConnectionString = connectionString
+    );
+    return config.BuildSessionFactory();
+});
+builder.Services.AddTransient(typeof(IRepository<>), typeof(RepositoryImplementation<>));
 
 var app = builder.Build();
 

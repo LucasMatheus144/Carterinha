@@ -4,7 +4,7 @@ namespace Carterinha.Aplication.Repository
 {
     public interface IRepository<T>
     {
-        Task IncluirAsync(T entity);
+        Task<T> IncluirAsync(T entity);
 
         Task<T> SalvarAsync(T entity);
 

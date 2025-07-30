@@ -1,14 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\lumet\\source\\repos\\Carterinha\\",
+  "WorkspaceRootPath": "C:\\Users\\Interfocus\\source\\repos\\Carterinha.DOMAIN\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D1E4823D-FC88-45D3-A0EC-F11CA775663F}|Carterinha.Aplication\\Carterinha.Aplication.csproj|c:\\users\\lumet\\source\\repos\\carterinha\\carterinha.aplication\\repository\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D1E4823D-FC88-45D3-A0EC-F11CA775663F}|Carterinha.Aplication\\Carterinha.Aplication.csproj|solutionrelative:carterinha.aplication\\repository\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{12D9CE54-2AC7-4779-A7D6-DF295378C9E2}|Carterinha.Api\\Carterinha.Api.csproj|c:\\users\\interfocus\\source\\repos\\carterinha.domain\\carterinha.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12D9CE54-2AC7-4779-A7D6-DF295378C9E2}|Carterinha.Api\\Carterinha.Api.csproj|solutionrelative:carterinha.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{19F4685F-8E1B-40E2-8350-A7BA86C6B14B}|Carterinha.Infrastructure\\Carterinha.Infrastructure.csproj|c:\\users\\lumet\\source\\repos\\carterinha\\carterinha.infrastructure\\repository\\repositoryimplementation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{19F4685F-8E1B-40E2-8350-A7BA86C6B14B}|Carterinha.Infrastructure\\Carterinha.Infrastructure.csproj|solutionrelative:carterinha.infrastructure\\repository\\repositoryimplementation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{12D9CE54-2AC7-4779-A7D6-DF295378C9E2}|Carterinha.Api\\Carterinha.Api.csproj|c:\\users\\interfocus\\source\\repos\\carterinha.domain\\carterinha.api\\carterinha.api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{12D9CE54-2AC7-4779-A7D6-DF295378C9E2}|Carterinha.Api\\Carterinha.Api.csproj|solutionrelative:carterinha.api\\carterinha.api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
     }
   ],
   "DocumentGroupContainers": [
@@ -39,26 +39,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "RepositoryImplementation.cs",
-              "DocumentMoniker": "C:\\Users\\lumet\\source\\repos\\Carterinha\\Carterinha.Infrastructure\\Repository\\RepositoryImplementation.cs",
-              "RelativeDocumentMoniker": "Carterinha.Infrastructure\\Repository\\RepositoryImplementation.cs",
-              "ToolTip": "C:\\Users\\lumet\\source\\repos\\Carterinha\\Carterinha.Infrastructure\\Repository\\RepositoryImplementation.cs",
-              "RelativeToolTip": "Carterinha.Infrastructure\\Repository\\RepositoryImplementation.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAowAYAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-28T00:33:00.691Z"
+              "Title": "Carterinha.Api.http",
+              "DocumentMoniker": "C:\\Users\\Interfocus\\source\\repos\\Carterinha.DOMAIN\\Carterinha.Api\\Carterinha.Api.http",
+              "RelativeDocumentMoniker": "Carterinha.Api\\Carterinha.Api.http",
+              "ToolTip": "C:\\Users\\Interfocus\\source\\repos\\Carterinha.DOMAIN\\Carterinha.Api\\Carterinha.Api.http",
+              "RelativeToolTip": "Carterinha.Api\\Carterinha.Api.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-07-30T19:37:24.164Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "IRepository.cs",
-              "DocumentMoniker": "C:\\Users\\lumet\\source\\repos\\Carterinha\\Carterinha.Aplication\\Repository\\IRepository.cs",
-              "RelativeDocumentMoniker": "Carterinha.Aplication\\Repository\\IRepository.cs",
-              "ToolTip": "C:\\Users\\lumet\\source\\repos\\Carterinha\\Carterinha.Aplication\\Repository\\IRepository.cs",
-              "RelativeToolTip": "Carterinha.Aplication\\Repository\\IRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Interfocus\\source\\repos\\Carterinha.DOMAIN\\Carterinha.Api\\Program.cs",
+              "RelativeDocumentMoniker": "Carterinha.Api\\Program.cs",
+              "ToolTip": "C:\\Users\\Interfocus\\source\\repos\\Carterinha.DOMAIN\\Carterinha.Api\\Program.cs",
+              "RelativeToolTip": "Carterinha.Api\\Program.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABUAAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-28T00:14:08.881Z",
+              "WhenOpened": "2025-07-30T19:31:15.735Z",
               "EditorCaption": ""
             }
           ]

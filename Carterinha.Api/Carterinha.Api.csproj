@@ -11,7 +11,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Controllers\" />
+    <ProjectReference Include="..\Carterinha.Aplication\Carterinha.Aplication.csproj" />
   </ItemGroup>
 
 </Project>

@@ -1,5 +1,4 @@
-﻿using System.ComponentModel.DataAnnotations;
-using Carterinha.DOMAIN.Interface;
+﻿using Carterinha.DOMAIN.Interface;
 
 namespace Carterinha.DOMAIN.Entities
 {
@@ -18,6 +17,31 @@ namespace Carterinha.DOMAIN.Entities
         public DateTime DataNascimento { get; set; }
 
         public DateTime Validade { get; set; }
-        
+
+        private Carteira() { }
+
+        public class Builder
+        {
+            private readonly Carteira _carteira = new Carteira();
+
+            public Builder SetRa(long ra) { _carteira.Ra = ra; return this; }
+
+            public Builder SetNome(string nome) { _carteira.Nome = nome; return this; }
+
+            public Builder SetCpf(string cpf) { _carteira.Cpf = cpf; return this; }
+
+            public Builder SetRg(string rg) { _carteira.Rg = rg; return this; }
+
+            public Builder SetNascimento(DateTime nascimento) { _carteira.DataNascimento = nascimento; return this; }
+
+            public Builder SetValidade(DateTime validade) { _carteira.Validade =  validade; return this; }
+
+
+            public Carteira Build()
+            {
+                return _carteira;
+            }
+        }
+
     }
 }
